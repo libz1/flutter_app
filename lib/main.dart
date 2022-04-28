@@ -594,6 +594,9 @@ class _HomePage3State extends State<HomePage3> {
           }
         }
       }
+      // xuky 2022.04.28 打印输出执行完成信息
+      print("读取excel完成");
+
 
     }
     writeXLSX() async {
