@@ -696,8 +696,9 @@ class _HomePage3State extends State<HomePage3> {
                 buildPopupMenuItem(Icons.message, '数据库交互', 'A'),
                 buildPopupMenuItem(Icons.group_add, '添加服务', 'B'),
                 buildPopupMenuItem(Icons.cast_connected, '扫一扫码', 'C'),
-                buildPopupMenuItem(Icons.cast_connected, '写入xlsx文件', 'D'),
-                buildPopupMenuItem(Icons.cast_connected, '读取xlsx文件', 'E'),
+                buildPopupMenuItem(Icons.keyboard, '写入xlsx文件', 'D'),
+                buildPopupMenuItem(Icons.file_copy, '读取xlsx文件', 'E'),
+                buildPopupMenuItem(Icons.devices_other, '其他功能', 'F'),
               ],
               onSelected: (String action) {
                 // 点击选项的时候
