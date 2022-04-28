@@ -594,6 +594,9 @@ class _HomePage3State extends State<HomePage3> {
           }
         }
       }
+      // xuky 2022.04.28 打印输出执行完成信息
+      print("读取excel完成");
+
 
     }
     writeXLSX() async {
@@ -664,6 +667,10 @@ class _HomePage3State extends State<HomePage3> {
         ..createSync(recursive: true)
         ..writeAsBytesSync(fileBytes!);
       print("f.path="+f.path);
+
+      // xuky 2022.04.28 打印输出写入执行完成信息
+      print("写入excel完成");
+
     }
 
     // xuky 2022.04.20
