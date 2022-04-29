@@ -706,6 +706,7 @@ class _HomePage3State extends State<HomePage3> {
                 buildPopupMenuItem(Icons.keyboard, '写入xlsx文件', 'D'),
                 buildPopupMenuItem(Icons.file_copy, '读取xlsx文件', 'E'),
                 buildPopupMenuItem(Icons.devices_other, '其他功能-2', 'F'),
+                buildPopupMenuItem(Icons.devices_other, '继续开发新的功能', 'G'),
               ],
               onSelected: (String action) {
                 // 点击选项的时候
