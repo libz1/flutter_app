@@ -708,6 +708,7 @@ class _HomePage3State extends State<HomePage3> {
                 buildPopupMenuItem(Icons.devices_other, '其他功能-2', 'F'),
                 buildPopupMenuItem(Icons.devices_other, '继续开发新的功能', 'G'),
                 buildPopupMenuItem(Icons.devices_other, '继续开发新的功能', 'H'),
+                buildPopupMenuItem(Icons.devices_other, '主线功能开发', 'I'),
               ],
               onSelected: (String action) {
                 // 点击选项的时候
