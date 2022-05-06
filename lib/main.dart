@@ -6,6 +6,7 @@ import 'dart:async';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'ScanPage.dart';
+import 'OpenMain.dart';
 import 'Todo.dart';
 
 import 'dart:io';
@@ -537,6 +538,16 @@ class _HomePage3State extends State<HomePage3> {
 
       print( "scandBarcode result = " + customArgumnets);
     }
+
+
+    openMain() async {
+      dynamic customArgumnets = await Navigator.of(context).push(MaterialPageRoute(builder: (_) {
+        return OpenMain(phoneNumber: "123");
+      }));
+
+      print( "scandBarcode result = " + customArgumnets);
+    }
+
     readXLSX() async {
 
 //      // xuky 2022.04.24 在模拟器上可供选择的目录很少，无法获得有效数据
@@ -726,6 +737,9 @@ class _HomePage3State extends State<HomePage3> {
                     break;
                   case 'E':
                     readXLSX();
+                    break;
+                  case 'I':
+                    openMain();
                     break;
                 }
               },

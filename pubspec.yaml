@@ -47,6 +47,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  flutter_webview_plugin: ^0.4.0
+
+  webview_flutter: ^2.0.8
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -73,9 +77,14 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - images/grid_nav_items_hotel.png
+    - images/grid_nav_items_minsu.png
+    - images/grid_nav_items_jhj.png
+    - images/grid_nav_items_travel.png
+    - images/grid_nav_items_dingzhi.png
+    - images/grid_nav_items_flight.png
+    - images/grid_nav_items_train.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
